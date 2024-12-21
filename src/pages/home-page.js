@@ -33,7 +33,7 @@ class HomePage extends Page {
 		initState({
 			count,
 			speed: 2,
-			delay: 100,
+			delay: 32,
 			swing: 30,
 			minAlpha: 30,
 			maxAlpha: 255,
