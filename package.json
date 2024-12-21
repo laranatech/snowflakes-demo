@@ -7,9 +7,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
-    "larana-js": "^0.2.8"
+    "larana-js": "^0.2.9"
   }
 }
