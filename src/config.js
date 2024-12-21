@@ -2,7 +2,7 @@ const path = require('path')
 const { defineConfig } = require('larana-js')
 
 module.exports = defineConfig({
-	port: 1610,
+	port: 2112,
 	defaultTheme: 'dark',
 	debug: false,
 	debugOptions: {
