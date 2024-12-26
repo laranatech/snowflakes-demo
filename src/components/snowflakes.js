@@ -31,26 +31,11 @@ const snowflake = ({
 				points: [
 					point({ x: x - halfRadius, y: y - halfRadius }),
 					point({ x: x + halfRadius, y: y + halfRadius }),
-				],
-			}).to(queue)
-			line({
-				...params,
-				points: [
-					point({ x: x + halfRadius, y: y - halfRadius }),
+					point({ x: x + halfRadius, y: y - halfRadius, moveTo: true }),
 					point({ x: x - halfRadius, y: y + halfRadius }),
-				],
-			}).to(queue)
-			line({
-				...params,
-				points: [
-					point({ x: x + halfRadius, y }),
+					point({ x: x + halfRadius, y, moveTo: true }),
 					point({ x: x - halfRadius, y }),
-				],
-			}).to(queue)
-			line({
-				...params,
-				points: [
-					point({ x, y: y - halfRadius }),
+					point({ x, y: y - halfRadius, moveTo: true }),
 					point({ x, y: y + halfRadius }),
 				],
 			}).to(queue)
