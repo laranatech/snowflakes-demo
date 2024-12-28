@@ -10,6 +10,6 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "larana-js": "^0.2.11"
+    "larana-js": "^0.2.12"
   }
 }
